@@ -1,7 +1,7 @@
 Ember.js Pittsburgh Meetup Feed Reader With Grunt
 ===========
 
-This is a very simple example of a working (barely) feed reader built using Ember.js and [Yahoo's YQL](http://developer.yahoo.com/yql/) for the [Ember.js Pittsburgh Meetup on Jan 16, 2014](http://www.meetup.com/Ember-js-Pittsburgh/events/158351342/). It modifies the [ember-pittsburgh-meetup-feed-reader-example](https://github.com/craigteegarden/ember-pittsburgh-meetup-feed-reader-example) example project to use Grunt to build the project.
+This is a very simple example of a working (barely) feed reader built using Ember.js and [Yahoo's YQL](http://developer.yahoo.com/yql/) for the [Ember.js Pittsburgh Meetup on Feb 20, 2014](http://www.meetup.com/Ember-js-Pittsburgh/events/161103052/). It modifies the [ember-pittsburgh-meetup-feed-reader-example](https://github.com/craigteegarden/ember-pittsburgh-meetup-feed-reader-example) example project to use Grunt to build the project.
 
 It is based on the [Ember starter kit](https://github.com/emberjs/starter-kit).
 
