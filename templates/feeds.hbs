@@ -1,0 +1,8 @@
+    <p>Select a feed</p>
+    <ul>
+      {{#each item in model}}
+        <li>{{#link-to 'feeds.feed' item}}{{item.id}}{{/link-to}}</li>
+      {{/each}}
+    </ul>
+    
+    {{outlet}}

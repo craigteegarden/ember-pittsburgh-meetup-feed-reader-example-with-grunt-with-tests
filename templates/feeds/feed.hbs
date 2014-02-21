@@ -1,0 +1,10 @@
+    <h2>{{content.id}}</h2>
+
+    <ul id="feed-list">
+    {{#each feed in feedItems}}
+      <li>
+        <a {{bind-attr href=feed.link.href}}>{{feed.title}}</a><br>
+        <div class="feed-list-content">{{{feed.summary}}}</div>
+      </li>
+    {{/each}}
+    </ul>

@@ -1,0 +1,34 @@
+{
+  "name": "ember-pittsburgh-meetup-feed-reader-example",
+  "version": "0.0.0",
+  "description": "Ember.js Pittsburgh Meetup Feed Reader ===========",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "dependencies": {
+    "grunt": "~0.4.2"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.2",
+    "grunt-contrib-uglify": "~0.3.2",
+    "grunt-contrib-concat": "~0.3.0",
+    "handlebars": "~1.3.0",
+    "ember-template-compiler": "~1.4.0-beta.1",
+    "grunt-ember-templates": "~0.4.18"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/craigteegarden/ember-pittsburgh-meetup-feed-reader-example.git"
+  },
+  "author": "",
+  "license": "BSD",
+  "readmeFilename": "README.md",
+  "gitHead": "c856bfcb51c7629fc1d1301dae37349741f0fe69",
+  "bugs": {
+    "url": "https://github.com/craigteegarden/ember-pittsburgh-meetup-feed-reader-example/issues"
+  }
+}
