@@ -23,3 +23,11 @@ run Grunt
 ````javascript
 grunt
 ````
+###Running the tests
+After building the project using `grunt`, launch the `tests/index.html` file in a browser to launch the integration and unit tests (qunit).
+
+Tests are also able to be run on the commandline using the `grunt-contrib-qunit` package to execute the tests in phantoms, a headless webbrowser. Make sure to build the project with `grunt` first.
+
+````javascript
+grunt qunit
+````

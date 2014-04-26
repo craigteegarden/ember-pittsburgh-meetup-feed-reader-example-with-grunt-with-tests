@@ -29,6 +29,10 @@ module.exports = function(grunt) {
           'build/compiled/templates.js': ["templates/**/*.hbs"]
         }
       }
+    },
+
+    qunit: {
+      all: ['tests/**/*.html']
     }
 
 
@@ -37,6 +41,7 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-uglify');
   grunt.loadNpmTasks('grunt-contrib-concat');
   grunt.loadNpmTasks('grunt-ember-templates');
+  grunt.loadNpmTasks('grunt-contrib-qunit');
 
   // Default task(s).
   grunt.registerTask('default', ['build']);
